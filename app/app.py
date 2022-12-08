@@ -27,8 +27,5 @@ def predict():
 
 
 if __name__ == "__main__":
-    # Use below for local flask deployment
-    app.run(port=5000, debug=True)
-
     # Use below for AWS EC2 deployment
-    # app.run(host='0.0.0.0',port=8080)
+    app.run(host='0.0.0.0',port=8080)
